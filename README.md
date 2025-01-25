@@ -10,10 +10,10 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Clean and preprocess the dataset by handling missing values, formatting data types, and removing incorrect records.
 
 ## Requirements:  
-1- Handle missing values in CustomerID
-2- Convert InvoiceDate to DateTime type
-3- Remove rows with negative Quantity or UnitPrice
-4- Create a TotalPrice column.
+1. Handle missing values in CustomerID
+2. Convert InvoiceDate to DateTime type
+3. Remove rows with negative Quantity or UnitPrice
+4. Create a TotalPrice column.
 
  
 
@@ -25,9 +25,9 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - You will also check the data types of each column to understand how the data is structured.
   
 ## Requirements: 
-- Use .describe() for statistical summary.
-- Identify top 10 selling products by Quantity.
-- Calculate total revenue and number of transactions.
+1. Use .describe() for statistical summary.
+2. Identify top 10 selling products by Quantity.
+3. Calculate total revenue and number of transactions.
 
 
 # Task 3: Time Series Analysis
@@ -36,9 +36,10 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Analyze sales trends over time and visualize monthly sales. 
 - Identify months with highest and lowest sales.
 
-## Requirements: - Resample the data to obtain monthly sales.
-- Plot monthly sales trends using a line plot.
-- Identify the month with the highest and lowest sales.
+## Requirements: 
+1. Resample the data to obtain monthly sales.
+2. Plot monthly sales trends using a line plot.
+3. Identify the month with the highest and lowest sales.
 
 
 # Task 4: RFM Analysis (Customer Segmentation)
@@ -48,10 +49,10 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Visualize customer distribution in segments.
 
 ## Requirements: 
-- Calculate recency (days since last purchase).
-- Calculate frequency (number of purchases).
-- Calculate monetary value (total spend).
-- Segment customers into High, Medium, Low-value groups.
+1. Calculate recency (days since last purchase).
+2. Calculate frequency (number of purchases).
+3. Calculate monetary value (total spend).
+4. Segment customers into High, Medium, Low-value groups.
 
  
 # Task 5: Product Category Analysis
@@ -60,9 +61,9 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Analyze sales and revenue by product category and visualize the top categories by revenue.
 
 ## Requirements: 
-- Extract product category from Description.
-- Calculate sales and revenue by category.
-- Create a bar plot of the top 5 categories by revenue.
+1. Extract product category from Description.
+2. Calculate sales and revenue by category.
+3. Create a bar plot of the top 5 categories by revenue.
 
 
 # Task 6: Geographical Analysis
@@ -71,9 +72,9 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Analyze sales distribution by country and identify top revenue-generating countries.
 
 ## Requirements: 
-- Calculate total revenue by country.
-- Create a bar plot of the top 10 countries by revenue.
-- Calculate the percentage of sales from the top 3 countries.
+1. Calculate total revenue by country.
+2. Create a bar plot of the top 10 countries by revenue.
+3. Calculate the percentage of sales from the top 3 countries.
 
  
 
@@ -83,9 +84,9 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Analyze customer behavior based on order quantity, sales, and purchasing patterns.
 
 ## Requirements: 
-- Plot the distribution of order quantities.
-- Create a scatter plot of Quantity vs. TotalPrice.
-- Calculate and plot average daily sales throughout the week.
+1. Plot the distribution of order quantities.
+2. Create a scatter plot of Quantity vs. TotalPrice.
+3. Calculate and plot average daily sales throughout the week.
 
  
 
@@ -95,9 +96,9 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Implement a basic moving average forecast for sales based on past data.
 
 ## Requirements 
-- Prepare daily sales data.
-- Calculate a 7-day moving average of sales.
-- Plot actual sales vs. moving average for the last 3 months.
+1. Prepare daily sales data.
+2. Calculate a 7-day moving average of sales.
+3. Plot actual sales vs. moving average for the last 3 months.
 
 
 # Task 9: Summary Dashboard Creation
@@ -119,15 +120,17 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Optimize a computationally intensive task using vectorized operations.
 
 ## Requirements:- 
-- Implement a task using loops.
-- Implement the same task using vectorized operations.
-- Compare and report performance differences.
+1. Implement a task using loops.
+2. Implement the same task using vectorized operations.
+3. Compare and report performance differences.
 
  
 
 # Task 11: Report Generation
 
-Description: Generate a summary report with key insights and recommendations.
+**Description:** 
+- Generate a summary report with key insights and recommendations.
 
-Requirements: - Summarize overall revenue, top-selling products, best customer segments, and countries.
-- Provide insights from time series analysis and recommendations.
+## Requirements: 
+1. Summarize overall revenue, top-selling products, best customer segments, and countries.
+2. Provide insights from time series analysis and recommendations.
