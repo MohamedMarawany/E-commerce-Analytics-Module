@@ -10,10 +10,10 @@ The project involves performing data analysis on an e-commerce sales dataset. It
 - Clean and preprocess the dataset by handling missing values, formatting data types, and removing incorrect records.
 
 ## Requirements:  
-- Handle missing values in CustomerID
-- Convert InvoiceDate to DateTime type
-- Remove rows with negative Quantity or UnitPrice
-- Create a TotalPrice column.
+1- Handle missing values in CustomerID
+2- Convert InvoiceDate to DateTime type
+3- Remove rows with negative Quantity or UnitPrice
+4- Create a TotalPrice column.
 
  
 
